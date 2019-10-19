@@ -1,4 +1,4 @@
-def rerverse_each_word(string)
+def reverse_each_word(string)
 mystring = string.split(" ")
  mystring.each do |reverses|
    puts reverses.reverse!
