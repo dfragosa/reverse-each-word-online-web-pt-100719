@@ -4,7 +4,7 @@ def reverse_each_word(string)
   mystring.each do |reverses| 
     puts reverses.reverse!
   end 
-  string
+  mystring
 end 
 reverse_each_word("Derric will be the godlike Programmer!")
 
