@@ -1,8 +1,7 @@
 def reverse_each_word(string)
 mystring = string.split(" ")
  mystring.each {|str|  str.reverse}
-    
-  end 
+  
 end
  reverse_each_word("Derric will be the best programmer!")
 
