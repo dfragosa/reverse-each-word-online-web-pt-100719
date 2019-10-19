@@ -2,6 +2,7 @@
 def reverse_each_word(string)
   string =   string.split(",")
   string.each do |reverses| 
+    puts reverses.reverse
   end 
 end 
 reverse_each_word("Derric will be the godlike Programmer!")
