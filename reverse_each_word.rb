@@ -1,7 +1,7 @@
 
 def reverse_each_word(string)
   string =   string.split(",")
-  string.
+  string.each do |reverses| 
   end 
 end 
 reverse_each_word("Derric will be the godlike Programmer!")
