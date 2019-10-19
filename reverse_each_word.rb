@@ -1,12 +1,10 @@
-
-def reverse_each_word(string)
-  mystring = string.split(",")
-  mystring.each do |reverses| 
-    puts reverses.reverse!
+def reverse_string(string)
+mystring = string.split(" ")
+ mystring.each do |reverses|
+   puts reverses.reverse!
   end 
-  mystring
-end 
-reverse_each_word("Derric will be the godlike Programmer!")
+end
+ reverse_string("Derric will be the best programmer!")
 
 # def reverse_each_word(string)
 #   string =   string.split(",")
